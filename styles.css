@@ -1,0 +1,293 @@
+/* Reset default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set some basic styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: black;
+  color:white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.hero {
+  position: relative;
+  height: 400px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('orange_header.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px;
+  color: black;
+}
+
+.content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.content .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color:#ff5722;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ff5722;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero a:hover {
+  background-color: #ff5722;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: black;
+}
+
+.featured-game .game {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.featured-game .game:hover {
+  transform: translateY(-5px);
+}
+
+.featured-game img {
+  width: 200px;
+  height: auto;
+  border-radius: 4px 0 0 4px;
+}
+
+.featured-game .game-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.featured-game h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.featured-game p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.featured-game a {
+  display: inline-block;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.featured-game a:hover {
+  background-color: #666;
+}
+
+.game {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.game:hover {
+  transform: translateY(-5px);
+}
+
+.game img {
+  width: 200px;
+  height: auto;
+  border-radius: 4px 0 0 4px;
+}
+
+.game .game-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.game h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.game a {
+  display: inline-block;
+  text-align: center;
+  background-color: #ff7043;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.game a:hover {
+  background-color: #666;
+}
+
+.category-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.category-list li {
+  margin-right: 10px;
+}
+
+.category-list li a {
+  color: #ff7043;
+  text-decoration: none;
+}
+
+.category-list li a:hover {
+  color:black;
+}
+
+.slideshow {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game-ratings,
+.game-trailers,
+.related-games,
+.developer-info,
+.game-release-calendar {
+  background-color: #fff;
+  padding: 20px;
+}
+a {
+  text-decoration: none; /* Remove the underline */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.image-gallery img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}

@@ -1,0 +1,76 @@
+/* CSS styling */
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-image: url("header-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ff6600;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px; /* Add some spacing between game-info elements */
+  }
+  
+  .game-info {
+    flex: 0 0 calc(33.33% - 20px); /* Calculate width with spacing */
+    display: flex;
+    flex-direction: column; /* Align image and rating vertically */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 150px; /* Increase image size for more impact */
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px; /* Add some spacing between image and rating */
+  }
+  
+  .rating {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600; /* Change to a vivid orange color */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
